@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minimal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="img/logo.png">
+</head>
+
+<body>
+  <header class="header">
+    <a class="logo" href="#"><img src="img/logo.png" alt="Minimal"></a>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a href="#about">About us</a></li>
+        <li><a href="#products">Our products</a></li>
+        <li><a href="#prices">Prices</a></li>
+        <li><a href="#bestsellers">Bestsellers</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
+    <button class="burger" id="burger" type="button" aria-label="Open menu"><span></span></button>
+  </header>
+
+  <div class="menu" id="menu">
+    <button class="menu__close" id="menu__close" type="button" aria-label="Close menu">&times;</button>
+    <ul class="menu__list">
+      <li><a href="#about">About us</a></li>
+      <li><a href="#products">Our products</a></li>
+      <li><a href="#prices">Prices</a></li>
+      <li><a href="#bestsellers">Bestsellers</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">Modern and minimalist <br>furniture for you</h1>
+        <p class="hero__text">Add a touch of elegance to your space <br>with handcrafted furniture pieces</p>
+        <button class="btn1" id="open">Subscribe</button>
+      </div>
+      <div class="hero__images">
+        <img src="img/image.png" alt="Armchairs with a coffee table" class="hero__images1">
+        <img src="img/image-2.png" alt="Modern armchair">
+        <img src="img/image-3.png" alt="Minimalist shelf with vases" class="hero__images2">
+      </div>
+      <img src="img/product 1.png" alt="Modern armchair" class="hero__images0">
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__content">
+        <hr>
+        <span class="label">About us</span>
+        <h2 class="about__title">Our craftsmanship: creating unique <br>handmade furniture</h2>
+        <p class="about__text">Discover the inspiration behind our modern and minimalist designs, and see <br>how we
+          bring
+          them to life through our skilled craftsmanship.</p>
+        <ul class="stats">
+          <li class="stats__item">
+            <b class="stats__number">5+</b><br>
+            <span class="stats__text">Years of experience <br>creating handcrafted <br>furniture</span>
+          </li>
+          <li class="stats__item">
+            <b class="stats__number">100%</b><br>
+            <span class="stats__text">Sustainably sourced <br>materials used in all <br>of our furniture</span>
+          </li>
+          <li class="stats__item">
+            <b class="stats__number">500+</b><br>
+            <span class="stats__text">Unique furniture <br>designs crafted by <br>our skilled artisans</span>
+          </li>
+        </ul>
+      </div>
+      <img class="about__img" src="img/product 4.png" alt="White sofa with a plant">
+    </section>
+
+    <section class="prices" id="prices">
+      <ul class="prices__list">
+        <button class="btnbtn">
+          <hr>
+          <li class="prices__item"><span class="a14">Chairs</span><span class="a13">from 200$</span></li>
+        </button><br>
+        <button class="btnbtn2">
+          <li class="prices__item"><span class="a12">Tables</span><span class="a15">from 250$</span></li>
+        </button><br>
+        <button class="btnbtn3">
+          <li class="prices__item"><span class="a12">Dressers</span><span class="a16">from 300$</span></li>
+        </button><br>
+        <button class="btnbtn4">
+          <li class="prices__item"><span class="a12">Sofas</span><span class="a17">from 500$</span></li>
+        </button>
+      </ul>
+    </section>
+
+    <section class="products" id="products">
+      <h2 class="section-title">Our products</h2>
+      <ul class="cards">
+        <li class="card">
+          <img src="img/product 5.png" alt="Minimalist storage solutions">
+          <p class="card__text">Minimalist storage solutions</p>
+        </li>
+        <li class="card">
+          <img src="img/product 6.png" alt="Handcrafted minimalist seating">
+          <p class="card__text">Handcrafted minimalist seating</p>
+        </li>
+        <li class="card">
+          <img src="img/product 7.png" alt="Sleek and simple tables">
+          <p class="card__text">Sleek and simple tables</p>
+        </li>
+        <li class="card">
+          <img src="img/product 8.png" alt="Minimalist seating for every space">
+          <p class="card__text">Minimalist seating for every space</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="bestsellers" id="bestsellers">
+      <h2 class="section-title">Bestsellers</h2>
+      <ul class="bestsellers__list">
+        <li class="item item--big">
+          <img src="img/product 9.png" alt="The modern platform bed">
+          <p class="item__name">The modern platform bed</p>
+          <p class="item__price">750$</p>
+        </li>
+        <li class="item">
+          <img src="img/product 10.png" alt="The Cozy Lounge Chair">
+          <p class="item__name">The Cozy Lounge Chair</p>
+          <p class="item__price">230$</p>
+        </li>
+        <li class="item">
+          <img src="img/product 11.png" alt="The industrial accent chair">
+          <p class="item__name">The industrial accent chair</p>
+          <p class="item__price">250$</p>
+        </li>
+
+        <li class="item1">
+          <img src="img/product 12.png" alt="The sleek stand">
+          <p class="item__name">The sleek stand</p>
+          <p class="item__price">300$</p>
+        </li>
+        <li class="item2">
+          <img src="img/product 13.png" alt="The minimalist sofa">
+          <p class="item__name">The minimalist sofa</p>
+          <p class="item__price">650$</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <h2 class="section-title">Clients reviews</h2>
+      <ul class="reviews__list">
+        <li class="review">
+          <div class="review__author">
+            <img src="img/Ellipse 1.png" alt="Alexandra Dream">
+            <div>
+              <h3 class="review__name">Alexandra Dream</h3>
+              <span class="review__date">1 week ago</span>
+            </div>
+          </div>
+          <p class="review__text">I was blown away by the quality and <br>craftsmanship of the furniture I received
+            <br>from
+            this company. Each piece was unique <br>and beautifully designed, and you can tell <br>that a lot of thought
+            and
+            care goes into every <br>detail.
+          </p>
+        </li>
+        <li class="review">
+          <div class="review__author">
+            <img src="img/Ellipse 1-2.png" alt="James Williams">
+            <div>
+              <h3 class="review__name">James Williams</h3>
+              <span class="review__date">A week ago</span>
+            </div>
+          </div>
+          <p class="review__text">The "Minimal" furniture set is a fantastic <br>addition to my home. It boasts a
+            minimalist
+            <br>design, enhancing the feel and look of my <br>living space. The sturdy construction is <br>worth noting
+            too, which
+            speaks volumes <br>about its durability.
+          </p>
+        </li>
+        <li class="review">
+          <div class="review__author">
+            <img src="img/Ellipse 1-3.png" alt="Emily Watson">
+            <div>
+              <h3 class="review__name">Emily Watson</h3>
+              <span class="review__date">3 week ago</span>
+            </div>
+          </div>
+          <p class="review__text">The "Minimal" furniture set has far exceeded <br>my expectations. The sleek design
+            combined <br>with the high-quality materials have not only <br>added an exceptional aesthetic to my space
+            <br>but also
+            offered an uncompromising <br>standard of comfort.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+      <div class="newsletter__content">
+        <h2 class="newsletter__title">Newsletter</h2>
+        <p class="newsletter__text">Every week we will send you new designs and information about <br>sales.</p>
+        <form class="form" action="#" method="post">
+          <input class="form__input" type="text" name="name" placeholder="Name" required><br>
+          <input class="form__input" type="email" name="email" placeholder="E-mail"><br>
+          <label class="form__checkbox">
+            <input type="checkbox" name="agree" required>
+            <span>Agree to subscribe to the newsletter</span>
+          </label><br>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+      <img class="newsletter__img" src="img/product 14.png" alt="Armchair with a side table">
+    </section>
+
+  </main>
+
+  <footer class="footer" id="contacts">
+    <div class="footer__top">
+      <a class="footer__logo" href="#"><img src="img/a-MINIMAL.png" alt="Minimal"></a>
+      <nav class="footer__nav">
+        <ul>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#products">Our products</a></li>
+          <li><a href="#prices">Prices</a></li>
+          <li><a href="#bestsellers">Bestsellers</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </nav>
+      <ul class="socials">
+        <li><a href="#" aria-label="Facebook"><img src="img/ph_facebook-logo.png" alt="1"></a></li>
+        <li><a href="#" aria-label="Instagram"><img src="img/ph_instagram-logo.png" alt="2"></a></li>
+        <li><a href="#" aria-label="YouTube"><img src="img/ph_youtube-logo.png" alt="3"></a></li>
+      </ul>
+    </div>
+    <address class="footer__contacts">
+      <div>
+        <p>Obolonsky Prospect, 14, Kyiv</p>
+        <p>Daily 10:00-21:00</p>
+      </div>
+      <div class="div11">
+        <p><a href="tel:+380669384758">+380669384758</a></p>
+        <p><a href="tel:+380679384758">+380679384758</a></p>
+      </div>
+      <p><a href="mailto:minimal.furniture@gmail.com" class="fu-a2">minimal.furniture@gmail.com</a></p>
+    </address>
+    <p class="footer__policy">By using this website, you agree to the <a href="#">Terms of Service</a> and <a
+        href="#">Privacy Policy</a></p>
+  </footer>
+
+  <div class="backdrop" id="backdrop">
+
+    <div class="dimmer"></div>
+    <!--моделка-->
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <img class="modal__img" src="img/Newsletter furniture.png" alt="Armchair with a side table">
+      <div class="modal__content">
+        <button class="modal__close" id="close" type="button" aria-label="Close">&times;</button>
+        <h2 class="modal__title" id="modal-title">Newsletter</h2>
+        <p class="modal__text">Every week we will send you new designs and information <br>about sales.</p>
+        <form class="form" action="#" method="post">
+          <input class="form__input2" type="text" name="name" placeholder="Name" required>
+          <input class="form__input2" type="email" name="email" placeholder="E-mail"><br>
+          <label class="form__checkbox">
+            <input type="checkbox" name="agree" required>
+            <span>Agree to subscribe to the newsletter</span>
+          </label>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

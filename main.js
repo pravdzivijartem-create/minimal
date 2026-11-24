@@ -22,3 +22,23 @@ open.addEventListener("click", () => {
 close.addEventListener("click", () => {
   modal.style.display = "none";
 })
+
+
+const butn = document.getElementById("theme");
+
+butn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+})
+
+
+const butn2 = document.getElementById("theme2");
+
+butn2.addEventListener("click", () => {
+    document.body.classList.toggle("dark2");
+})
+
+const butn3 = document.getElementById("theme3");
+
+butn3.addEventListener("click", () => {
+    document.body.classList.toggle("dark3");
+})
